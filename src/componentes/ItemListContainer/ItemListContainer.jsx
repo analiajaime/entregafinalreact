@@ -3,7 +3,7 @@ import ItemList from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
 import { db } from "../../services/config";
 import { collection, getDocs, where, query } from "firebase/firestore";
-import Formulario from "../formulario/Formulario";
+import Formulario from "../Formulario/Formulario";
 import Footer from "../Footer/Footer";
 
 
