@@ -1,0 +1,83 @@
+/* Estilos generales para el contenedor del detalle del ítem */
+.contenedorItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Estilización del título del producto */
+.contenedorItem h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los párrafos, incluyendo el precio */
+.contenedorItem p {
+    color: #666;
+    line-height: 1.6;
+    margin: 5PX;
+    align-items: center;
+}
+
+/* Estilo para la imagen del producto */
+.contenedorItem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+/* Estilo para el enlace de "Terminar Compra" */
+.contenedorItem a {
+    display: inline-block;
+    background-color: #007bff;
+    color: black;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.contenedorItem a:hover {
+    background-color: #c1dbf7;
+}
+
+/* Botones dentro del componente Contador  */
+.btn {
+    display: inline-block;
+
+    background-color: #eee;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    color:#333;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.numerito {
+    display: inline-block;
+    background-color: #eee;
+    color: #333;
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 10px;
+    margin-left: 150px;
+
+}
+

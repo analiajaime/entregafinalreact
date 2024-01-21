@@ -1,0 +1,129 @@
+/* Estilos básicos para resetear */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0e5ec; /* Fondo claro típico del neumorfismo */
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e0e5ec; /* Igual que el fondo del body para un efecto seamless */
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; /* Espacio entre elementos de la lista */
+
+}
+
+/* Estilos básicos para resetear */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0e5ec; /* Fondo claro típico del neumorfismo */
+    color: #333;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    padding: 20px;
+    background-color: #e0e5ec; /* Igual que el fondo del body para un efecto seamless */
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    gap: 20px; /* Espacio entre elementos de la lista */
+}
+
+nav ul li {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #e0e5ec; /* Color de fondo */
+    box-shadow:
+        8px 8px 15px #a3b1c6, /* Sombra exterior oscura */
+        -8px -8px 15px #ffffff; /* Sombra exterior clara */
+}
+
+nav ul li:hover {
+    background-color: #ccd6f6; /* Color de fondo al pasar el ratón */
+}
+
+/* Estilos para NavLink activo */
+.nav-link-active {
+    font-weight: bold;
+    color: #4d4d4d;
+}
+
+/* Estilos para CartWidget */
+.CartWidget {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%; /* Hace el widget redondo */
+    background-color: #e0e5ec; /* Color de fondo */
+    box-shadow:
+        8px 8px 15px #a3b1c6, /* Sombra exterior oscura */
+        -8px -8px 15px #ffffff; /* Sombra exterior clara */
+}
+
+nav ul li:hover {
+    background-color: #ccd6f6; /* Color de fondo al pasar el ratón */
+}
+
+/* Estilos para NavLink activo */
+.nav-link-active {
+    font-weight: bold;
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+/* Estilos para CartWidget */
+.CartWidget {
+    display: flex;
+    justify-content: center;
+    Text-decoration: none;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%; /* Hace el widget redondo */
+    background-color: #e0e5ec; /* Color de fondo */
+    box-shadow:
+        8px 8px 15px #a3b1c6, /* Sombra exterior oscura */
+        -8px -8px 15px #ffffff; /* Sombra exterior clara */
+}
+
+

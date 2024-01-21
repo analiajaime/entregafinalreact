@@ -1,0 +1,11 @@
+.contenedorProductos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    color: #000000;
+    
+}

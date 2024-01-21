@@ -1,0 +1,65 @@
+/* Estilo base del formulario */
+.formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #cff8f8; /* Color más suave y profesional */
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra más sutil */
+    transition: box-shadow 0.3s ease; /* Transición suave para la sombra */
+}
+
+.formulario:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al pasar el ratón */
+}
+
+/* Agrupación de elementos del formulario */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+/* Estilo para las etiquetas */
+label {
+    font-weight: 600; /* Más bold para mejor legibilidad */
+    margin-bottom: 0.5rem;
+    color: #333; /* Color de texto más oscuro para mejor contraste */
+}
+
+/* Estilo para inputs y textareas */
+input,
+textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    transition: border-color 0.3s ease; /* Transición suave para el borde */
+}
+
+input:focus,
+textarea:focus {
+    border-color: #88bef8; /* Cambio de color al enfocarse */
+    outline: none; /* Eliminar el outline predeterminado */
+}
+
+/* Estilo para el título del formulario */
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.5rem; /* Tamaño de fuente más grande */
+    margin-bottom: 1rem; /* Espacio antes del formulario */
+}
+
+/* Estilo para el identificador de orden */
+.orderId {
+    display: block;
+    margin: 4rem auto; /* Centrar el bloque */
+    padding: 2rem;
+    font-size: 2rem;
+    border: 1px solid #333; /* Color de borde más oscuro */
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Fondo sutil para resaltar el contenido */
+    text-align: center; /* Texto centrado */
+}
