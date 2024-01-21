@@ -1,4 +1,7 @@
 # E-COMMERCE DE ANALIA
+## Proyecto de React JS en Coderhouse
+![texto cualquiera por si no carga la imagen](/public/img/otros01.jpeg)
+
 Este es un proyecto de ecommerce básico que se utiliza para el curso de React JS en Coderhouse, con el genio de SAMUEL. La aplicación me permite ver una lista de productos y realizar compras en línea. Los productos y las órdenes de compra se almacenan en Firebase. 
 
 ## Tecnologías utilizadas. 
